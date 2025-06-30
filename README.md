@@ -1,4 +1,4 @@
-# **Green Innovation and Economic Growth: Replication Study**
+# **Green Innovation and Economic Growth**
 
 ## **1. What I Did**
 
