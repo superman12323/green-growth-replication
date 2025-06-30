@@ -27,12 +27,12 @@ This project integrates data from the following three sources:
 
 ## **3. Python Scripts and Their Roles**
 
-- [**main.ipynb**](./main.ipynb): Runs the entire analysis pipeline and produces the main regression outputs.  
-- [**load_patent_data.py**](./load_patent_data.py): Loads and joins raw PatentsView data using DuckDB.  
-- [**clean_patent_data.py**](./clean_patent_data.py): Identifies green patents and constructs a panel dataset by country and year.  
-- [**map_green_patents_us.py**](./map_green_patents_us.py): Visualizes the geographic distribution of green patents across U.S. states.  
-- [**merge_country_gdp.py**](./merge_country_gdp.py): Harmonizes country names and merges patent data with IMF GDP per capita data.  
-- [**run_regression_irf.py**](./run_regression_irf.py): Builds features and runs panel regressions to estimate impulse response functions (IRFs) of GDP growth.
+- [main.ipynb](./main.ipynb): Runs the entire analysis pipeline and produces the main regression outputs.  
+- [load_patent_data.py](./load_patent_data.py): Loads and joins raw PatentsView data using DuckDB.  
+- [clean_patent_data.py](./clean_patent_data.py): Identifies green patents and constructs a panel dataset by country and year.  
+- [map_green_patents_us.py](./map_green_patents_us.py): Visualizes the geographic distribution of green patents across U.S. states.  
+- [merge_country_gdp.py](./merge_country_gdp.py): Harmonizes country names and merges patent data with IMF GDP per capita data.  
+- [run_regression_irf.py](./run_regression_irf.py): Builds features and runs panel regressions to estimate impulse response functions (IRFs) of GDP growth.
 
 ---
 
